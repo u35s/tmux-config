@@ -23,6 +23,12 @@ ____
 * 列出会话 `tmux ls`
 * 进入已存在的会话 `tmux a -t $session_name`
 
+tmux窗口操作
+____
+* 新建窗口`C-a c`
+* 切换窗口`C-a + $a` $a 窗口底部状态栏的名字
+* 轮询窗口`C-a l`
+
 tmux注意事项
 ____
 * tmux会记录你的工作状态,尝试不用某个回话应主动关闭,关闭全部指令`tmux kill-server`
