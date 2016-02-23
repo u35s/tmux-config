@@ -17,11 +17,11 @@ ____
 
 tmux会话操作
 ____
-* 创建并指定会话名字 `tmux new -s $session_name`
-* 删除指定会话名字 `tmux kill-session -t $session_name`
-* 临时退出会话 `C-a d`
-* 列出会话 `tmux ls`
-* 进入已存在的会话 `tmux a -t $session_name`
+*创建并指定会话名字 `tmux new -s $session_name`
+*删除指定会话名字 `tmux kill-session -t $session_name`
+*临时退出会话 `C-a d`
+*列出会话 `tmux ls`
+*进入已存在的会话 `tmux a -t $session_name`
 
 tmux注意事项
 ____
